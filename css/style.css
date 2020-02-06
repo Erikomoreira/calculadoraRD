@@ -1,0 +1,16 @@
+.contanier{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+
+    
+}
+
+#visor{
+ background-color: green;
+
+}
+
