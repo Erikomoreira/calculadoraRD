@@ -13,7 +13,7 @@
 }
 
 #visor{
- background-color: green;
+ background-color: rgba(19, 216, 19, 0.438);
  justify-content: flex-end;
  height: 40px;
  font-size: 20px;
@@ -22,6 +22,7 @@
  border: 2px solid black;
  margin-bottom: 10px;
  width: 220px;
+ color: black;
  
  
 }

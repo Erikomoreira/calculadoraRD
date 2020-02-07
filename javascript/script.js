@@ -16,7 +16,7 @@ const calcular = () => {
     visor.textContent = resultado;
 }
 
-// faz a ação do calculo
+// faz ação do botão clicado
 const acaoBtn = (event) => {
 
     let valor = event.target.textContent;
