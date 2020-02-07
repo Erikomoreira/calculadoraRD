@@ -1,11 +1,12 @@
-let visor = document.getElementById('visor');
-let ce = document.getElementById('ce');
-let botoes = document.querySelectorAll('.clicado')
+
+let visor = document.getElementById('visor'); /* Pegar o visor */
+let ce = document.getElementById('ce'); /* Pegar o botão de limpar o visor */
+let botoes = document.querySelectorAll('.clicado') /* Pegar todos os botoões */
 
 const atualizarVisor = (param) => {
     visor.innerHTML  += param;
 }
-
+/* Limpa o visor */
 const limparVisor = () => {
     visor.textContent = "";
 }
