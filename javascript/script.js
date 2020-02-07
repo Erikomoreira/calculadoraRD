@@ -2,7 +2,7 @@
 let visor = document.getElementById('visor'); /* Pegar o visor */
 let ce = document.getElementById('ce'); /* Pegar o botão de limpar o visor */
 let botoes = document.querySelectorAll('.clicado') /* Pegar todos os botoões */
-
+ //atualizar o visor 
 const atualizarVisor = (param) => {
     visor.innerHTML  += param;
 }
@@ -10,12 +10,13 @@ const atualizarVisor = (param) => {
 const limparVisor = () => {
     visor.textContent = "";
 }
-
+// faz o calculo
 const calcular = () => {
     const resultado = eval(visor.textContent);
     visor.textContent = resultado;
 }
 
+// faz a ação do calculo
 const acaoBtn = (event) => {
 
     let valor = event.target.textContent;
@@ -23,7 +24,7 @@ const acaoBtn = (event) => {
     valor == "=" ? calcular() : atualizarVisor(valor)
 
 }
-
+//add os eventos nos botões
 botoes.forEach(btn => btn.addEventListener("click", acaoBtn)); 
 ce.addEventListener("click", limparVisor);
 
