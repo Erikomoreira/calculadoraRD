@@ -1,6 +1,10 @@
-Desenvolvedores
+### Apresentação
 
-Erik de Oliveira Moreira
-Vinicius Ferreira
+- Calculadora básica
+
+### Desenvolvedores
+
+- Erik de Oliveira Moreira
+- Vinicius Ferreira
 
 
